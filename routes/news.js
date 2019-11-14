@@ -95,7 +95,7 @@ module.exports = app => {
             
             const promise = axios({
                 'method': 'post',
-                'url': 'http://164.41.147.15:8080/noticias',
+                'url': 'http://localhost:8080/noticias',
                 'data': {
                     "author":element['source'].name,
                     "content":element.content,
